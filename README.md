@@ -1,9 +1,10 @@
-# Data-Pipeline4Real-Time-Analytics-Dashboard
+Data-Pipeline4Real-Time-Analytics-Dashboard
 
 A Python-based ETL pipeline that fetches weather data from the WeatherStack API, stores it in SQLite, and visualizes temperature trends with Plotly. Built to demonstrate data management and system integration skills.
 
-## Architecture
-```mermaid
+Architecture:
+
+mermaid
 graph TD
     A[WeatherStack API] --> B[Python Script]
     B --> C[SQLite Database]
